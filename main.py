@@ -28,7 +28,7 @@ def check_housing():
             if 'saint leu' in nom_residence or 'saint-leu' in nom_residence:
                 return True
                 
-        return False
+        return True
         
     except Exception as e:
         print(f"❌ Erreur lors de l'analyse de la page : {e}")
